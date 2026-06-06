@@ -1,0 +1,10 @@
+{
+  "name": "Guard English AI",
+  "description": "Professional AI-powered writing assistant for security guards, converting local languages to professional English reports.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
