@@ -12,13 +12,10 @@ export default defineConfig(() => {
       },
     },
     build: {
+      minify: false,
       rollupOptions: {
         output: {
-          manualChunks: {
-            vendor: ['react', 'react-dom', 'react-router-dom', 'zustand'],
-            pdf: ['jspdf', 'html2canvas'],
-            firebase: ['firebase/app', 'firebase/auth', 'firebase/database']
-          }
+          manualChunks: undefined
         }
       }
     },
